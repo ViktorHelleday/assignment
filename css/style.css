@@ -48,13 +48,14 @@ html, body {
 .top-menu {
     background-color: var(--color-theme);
     color: var(--color-white);
+    height: 40px;
     
 }
 
     .top-menu > .container {
         height: 100%;
         display: flex;
-        justify-content: space-between;
+        justify-content: end;
         align-items: center;
 
     }
@@ -102,7 +103,6 @@ html, body {
 
     .top-menu .menu-links {
         display: none;
-        padding: 0.4rem;
     }
 
     .top-menu .menu-links .links {
@@ -136,17 +136,17 @@ html, body {
 @media (min-width: 768px) {
     .top-menu .menu-links {
         display: block;
-        padding: 0.4rem;
+    }
+
+    .top-menu > .container {
+        justify-content: space-between;
     }
 }
 
 
 @media (min-width: 992px) {
-    .top-menu > .container {
-        justify-content: space-between;
-    }
-
     .top-menu .menu-links .links {
         display: inline;
+        
     }
 }
