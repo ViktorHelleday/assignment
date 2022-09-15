@@ -101,7 +101,12 @@ html, body {
                     }
 
     .top-menu .menu-links {
+        display: none;
         padding: 0.4rem;
+    }
+
+    .top-menu .menu-links .links {
+        display: none;
     }
 
     .top-menu .menu-links a {
@@ -126,5 +131,22 @@ html, body {
                 .top-menu .menu-links .social-media a:last-child {
                     margin: 0 0 0 0.3rem;
                 }
-    
-    
+
+
+@media (min-width: 768px) {
+    .top-menu .menu-links {
+        display: block;
+        padding: 0.4rem;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .top-menu > .container {
+        justify-content: space-between;
+    }
+
+    .top-menu .menu-links .links {
+        display: inline;
+    }
+}
