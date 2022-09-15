@@ -59,32 +59,6 @@ html, body {
 
     }
 
-    .top-menu .menu-links {
-        padding: 0.4rem;
-    }
-
-    .top-menu a {
-        color: var(--color-white);
-        text-decoration: none; 
-        margin: 0 1.2rem;
-    }
-
-        .top-menu a:hover {
-            color: var(--color-theme-dark)
-        }
-
-    .top-menu .social-media {
-        margin-left: 1rem;
-    }
-
-        .top-menu .social-media a {
-            margin: 0 0.3rem;
-        }
-
-            .top-menu .social-media a:last-child {
-                margin: 0 0 0 0.3rem;
-            }
-    
     .top-menu .site-settings {
         display: flex;
     }
@@ -126,3 +100,31 @@ html, body {
                         color: var(--color-theme-dark);
                     }
 
+    .top-menu .menu-links {
+        padding: 0.4rem;
+    }
+
+    .top-menu .menu-links a {
+        color: var(--color-white);
+        text-decoration: none; 
+        margin: 0 1.2rem;
+    }
+
+        .top-menu .menu-links a:hover {
+            color: var(--color-theme-dark)
+        }
+
+        .top-menu .menu-links .social-media {
+            margin-left: 1rem;
+            font-size: var(--font-size-14);
+        }
+
+            .top-menu .menu-links .social-media a {
+                margin: 0 0.3rem;
+            }
+
+                .top-menu .menu-links .social-media a:last-child {
+                    margin: 0 0 0 0.3rem;
+                }
+    
+    
