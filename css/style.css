@@ -326,7 +326,7 @@ html, body {
     }
         
         .webshop-info .info-box:hover img {
-            filter: sepia(0%) brightness(1000%);
+            filter: brightness(1000%);
         }
 
     .webshop-info .info-box h1 {
