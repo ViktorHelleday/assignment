@@ -276,6 +276,7 @@ html, body {
                 justify-content: space-between;
                 align-items: center;
                 padding: 0.7rem 1rem;
+                transition: 0.15s ease-in-out;
         }
 
                 .main-menu nav .browse-categories button:hover {
@@ -353,6 +354,7 @@ html, body {
         margin: 0 1rem;
         flex: 1;
         border-radius: var(--border-radius-small);
+        transition: all 0.3s ease-in-out;
     }
 
         .webshop-info .info-box:hover {
@@ -362,6 +364,9 @@ html, body {
 
     .webshop-info .info-box img {
         margin-right: 1.5rem;
+        filter: brightness(100%);
+        transition: all 0.3s ease-in-out;
+        
     }
         
         .webshop-info .info-box:hover img {
@@ -372,6 +377,7 @@ html, body {
         color: var(--color-theme);
         font-size: 1rem;
         font-weight: var(--font-weight-medium);
+        transition: all 0.3s ease-in-out;
     }
     
         .webshop-info .info-box:hover h1 {
@@ -410,6 +416,7 @@ html, body {
             padding: 0.5rem 1rem;
             font-weight: var(--font-weight-medium);
             height: 40px;
+            transition: 0.2s ease-in-out;
         }
 
             .shop-by-category .category-box:hover .category-box-title {
@@ -458,7 +465,19 @@ html, body {
         grid-row: 3 / -1;
     }
 
+.new-arrivals {
+    margin-top: 5rem;
+}
 
+    .new-arrivals .card {
+        position: relative;
+        height: 400px;
+        width: 350px;
+    }
+
+        .new-arrivals .card .card-body {
+            position: absolute;
+        }
 
 
 
